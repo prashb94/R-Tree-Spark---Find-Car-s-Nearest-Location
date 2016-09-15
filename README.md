@@ -4,6 +4,8 @@ Given a road network represented as a graph and some cars’ locations from GPS,
 The archery library for Scala (https://github.com/meetup/archery) is used to implement the R-Tree. Please compile the jar file from the above link directly. Sample data is also provided in this repository.
 The exact location of a car is the perpendicular distance between the car and the nearest road. For example, 
 
+<img height=250 src=https://github.com/prashb94/R-Tree-Spark---Find-Car-s-Nearest-Location/blob/master/pic.png />
+
 Tested on the spark-shell. To run
 1.	spark-shell -classpath archery.jar
 2.	Paste the code in the main method in main.scala
